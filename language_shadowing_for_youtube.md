@@ -12,6 +12,7 @@ The only data handled by the Extension consists of user configuration settings, 
 - **Microphone Access:** Used solely to record your voice for real-time echo-back practice. Audio data is processed entirely in the browser (locally), temporarily held in memory, and is instantly overwritten or deleted after playback. It is never saved to persistent storage or transmitted externally.
 - **Storage (`chrome.storage.local`):** Used only to save your configuration settings (such as custom shortcut keys and auto-pause options) locally within your browser. 
 - **Offscreen Documents:** Used strictly to comply with modern Chrome Extension (Manifest V3) security standards. This API allows the Extension to safely handle background audio recording (`getUserMedia`) and playback (`AudioContext`), which cannot be executed within a standard Service Worker.
+- **Host Permissions (YouTube Access):** Used exclusively to detect and control the video player (such as auto-pausing and resuming video playback) on YouTube pages. The Extension does not read, modify, or access web pages or user data on any other domains.
 
 ## 2. Data Retention and Deletion
 All configuration settings are stored locally using Chrome's secure storage API (`chrome.storage.local`). This data remains on your device solely for the purpose of maintaining your preferences. **Once you uninstall the Extension from your browser, all locally stored settings and data are automatically and permanently deleted.**
