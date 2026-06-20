@@ -19,8 +19,8 @@ We may update our Privacy Policy from time to time. Any changes will be posted o
 
 ## 4. Contact Us
 If you have any questions regarding privacy while using the Extension, please contact us at:
-- **Email:** [Your Support Email Address]
-- **GitHub:** [Your GitHub Profile URL or Repository URL]
+- **Email:** [mkatsdev@gmail.com]
+- **GitHub:** [https://github.com/mkats4412/language_shadowing]
 
 ---
 
